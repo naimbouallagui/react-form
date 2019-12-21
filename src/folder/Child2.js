@@ -5,13 +5,11 @@ import React, { Component } from "react";
 export default class Child2 extends Component {
 //   constructor(props) {
 //     super(props);
-//     debugger
 //     this.state = {
 //       tabUsers: this.props.tabUsersParent
 //     };
 //   }
 //   static getDerivedStateFromProps(props) {
-//       debugger
 //     return { tabUsers: props.tabUsersParent };
 //   }
   render() {

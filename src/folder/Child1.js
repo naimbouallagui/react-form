@@ -24,7 +24,7 @@ class Child1 extends Component {
     evt.preventDefault();
     const { errors, inputField, email, password } = this.state;
     if (errors.inputField !== "" || errors.email !== "" || errors.password !== "" || inputField === "" || email === "" || password === "") return;
-    // debugger
+    
     const { handlerFromParant } = this.props;
 
     handlerFromParant(this.state);
@@ -42,7 +42,7 @@ class Child1 extends Component {
     const { name, value } = event.target;
     let errs = {}; //this.state.errors;
     const { errors } = this.state;
-    // debugger
+    
     switch (name) {
       case "inputField":
         errs.inputField =
